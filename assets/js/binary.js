@@ -1,4 +1,4 @@
-// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.8.30/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"0.0.0","target":"arcade","targetVersion":"1.8.30"}
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.8.30/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"0.0.1","target":"arcade","targetVersion":"1.8.30","repo":"tom-nook-the-great/testing-project"}
 // total=1797333 new=12.52% cached=82.40% other=5.07%
 (function (ectx) {
 'use strict';
@@ -526,7 +526,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P22407(s) {
+function _main___P22464(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1118,13 +1118,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-_main___P22407.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"pxt_modules/arcade-story/main.ts","functionName":"<main>","argumentNames":[]}
-_main___P22407.continuations = [  ]
+_main___P22464.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"pxt_modules/arcade-story/main.ts","functionName":"<main>","argumentNames":[]}
+_main___P22464.continuations = [  ]
 
-function _main___P22407_mk(s) {
+function _main___P22464_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P22407, depth: s.depth + 1,
+        parent: s, fn: _main___P22464, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -56416,5 +56416,5 @@ const sprites_BaseSpriteSayRenderer__C2048_VT = mkVTable({
 
 const breakpoints = setupDebugger(1, ["transparency16___4579","tile1___4580","tile3___4581","tile2___4582","tile4___4583","Thief___4576","Hand___4577"])
 
-return _main___P22407
+return _main___P22464
 })
